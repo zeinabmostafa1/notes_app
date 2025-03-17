@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:notes_app/view/notes_view.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 
 void main() {
   runApp(const NotesApp());
