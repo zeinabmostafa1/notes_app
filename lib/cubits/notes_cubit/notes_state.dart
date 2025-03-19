@@ -5,8 +5,10 @@ sealed class NotesState {}
 
 final class NotesInitial extends NotesState {}
 
-final class NoteFailure extends NotesState {
-  final String errorMessage;
+final class NotesSuccess extends NotesState {}
 
-  NoteFailure(this.errorMessage);
-}
+// final class NoteFailure extends NotesState {
+//   final String errorMessage;
+
+//   NoteFailure(this.errorMessage);
+// }
