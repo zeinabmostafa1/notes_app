@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'cutom_icon.dart';
+import 'custom_icon.dart';
 
 class CustomAppBar extends StatelessWidget {
   const CustomAppBar(
@@ -19,9 +19,7 @@ class CustomAppBar extends StatelessWidget {
           ),
         ),
         const Spacer(),
-        CustomSearchIcon(
-          icon: icon,
-        ),
+        CustomIcon(onPressed: onPressed, icon: icon)
       ],
     );
   }
